@@ -1,15 +1,12 @@
-"""models/customer.py
+models/customer.py
 
-Customer: بيانات العميل اللي بيستأجر السيارة، والتحقق من صلاحية رخصته.
-"""
 from __future__ import annotations
-
 from datetime import date
 from typing import Any
 
 
 class Customer:
-    """عميل الشركة."""
+   
 
     MIN_PHONE_DIGITS: int = 10
     MAX_PHONE_DIGITS: int = 15
@@ -28,7 +25,7 @@ class Customer:
         self._license_no: str = self._require_text(license_no, "رقم الرخصة").upper()
         self._license_expiry: date = self._validate_date(license_expiry)
 
-    # ---------- دوال مساعدة للتحقق (Validation) ----------
+            # ---------- (Validation) ----------
     @staticmethod
     def _require_text(value: str, field: str) -> str:
         if not isinstance(value, str) or not value.strip():
@@ -55,10 +52,10 @@ class Customer:
             raise ValueError("تاريخ انتهاء الرخصة غير صالح")
         return value
 
-    # ---------- Properties (Encapsulation) ----------
+    # ---------- Properties (Encapsulation) ---------
     @property
     def customer_id(self) -> str:
-        return self._customer_id  # للقراءة فقط
+        return self._customer_id  
 
     @property
     def name(self) -> str:
@@ -92,12 +89,12 @@ class Customer:
     def license_expiry(self, value: date) -> None:
         self._license_expiry = self._validate_date(value)
 
-    # ---------- سلوك العميل (Business Rule) ----------
+    # ---------- (Business Rule) ----------
     def is_license_valid(self, on_date: date) -> bool:
-        """هل الرخصة سارية في التاريخ المحدد؟ (آخر يوم صلاحية يُحسب سارياً)"""
+        
         return self._license_expiry >= on_date
 
-    # ---------- التحويل من/إلى JSON ----------
+    # ---------- JSON ----------
     def to_dict(self) -> dict[str, Any]:
         return {
             "customer_id": self._customer_id,
