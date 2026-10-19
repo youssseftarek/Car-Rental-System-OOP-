@@ -1,0 +1,30 @@
+[
+  {
+    "customer_id": "C001",
+    "name": "Mona Ali",
+    "phone": "01012345678",
+    "license_no": "L123",
+    "license_expiry": "2028-10-18"
+  },
+  {
+    "customer_id": "C002",
+    "name": "Ahmed Hassan",
+    "phone": "01098765432",
+    "license_no": "L456",
+    "license_expiry": "2027-10-19"
+  },
+  {
+    "customer_id": "C003",
+    "name": "Sara Mahmoud",
+    "phone": "01155554444",
+    "license_no": "L789",
+    "license_expiry": "2029-10-18"
+  },
+  {
+    "customer_id": "C004",
+    "name": "Omar Khaled",
+    "phone": "01234567890",
+    "license_no": "L321",
+    "license_expiry": "2026-09-19"
+  }
+]

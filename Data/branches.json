@@ -1,0 +1,12 @@
+[
+  {
+    "branch_id": "B01",
+    "name": "Main Branch",
+    "address": "Cairo"
+  },
+  {
+    "branch_id": "B02",
+    "name": "Giza Branch",
+    "address": "Giza"
+  }
+]

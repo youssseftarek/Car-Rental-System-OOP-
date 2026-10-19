@@ -1,0 +1,5 @@
+﻿Rental ID,Customer,Plate,Type,Start,End,Returned,Status,Days,Cost,Late Fee,Total Due,Paid,Remaining
+R001,Mona Ali,ABC123,EconomyCar,2026-10-09,2026-10-12,2026-10-14,returned,3,1260.0,1200.0,2460.0,1000.0,1460.0
+R002,Ahmed Hassan,XYZ789,SUV,2026-09-29,2026-10-02,2026-10-02,returned,3,2430.0,0.0,2430.0,2430.0,0.0
+R003,Sara Mahmoud,DEF456,EconomyCar,2026-10-17,2026-10-22,,active,5,1837.5,0.0,1837.5,500.0,1337.5
+R004,Mona Ali,LUX001,LuxuryCar,2026-10-11,2026-10-15,,active,4,10080.0,0.0,10080.0,3000.0,7080.0

@@ -4,3 +4,6 @@ __pycache__/
 venv/
 .env
 .vscode/
+/scratch_1_models.py
+/scratch_2_file_manager.py
+/scratch_3_car_rental.py
