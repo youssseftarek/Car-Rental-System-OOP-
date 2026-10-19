@@ -1,0 +1,74 @@
+[
+  {
+    "rental_id": "R001",
+    "vehicle_plate": "ABC123",
+    "customer_id": "C001",
+    "start_date": "2026-10-09",
+    "end_date": "2026-10-12",
+    "returned_on": "2026-10-14",
+    "status": "returned",
+    "payments": [
+      {
+        "payment_id": "P001",
+        "rental_id": "R001",
+        "amount": 1000.0,
+        "payment_date": "2026-10-09",
+        "method": "cash"
+      }
+    ]
+  },
+  {
+    "rental_id": "R002",
+    "vehicle_plate": "XYZ789",
+    "customer_id": "C002",
+    "start_date": "2026-09-29",
+    "end_date": "2026-10-02",
+    "returned_on": "2026-10-02",
+    "status": "returned",
+    "payments": [
+      {
+        "payment_id": "P002",
+        "rental_id": "R002",
+        "amount": 2430.0,
+        "payment_date": "2026-09-29",
+        "method": "card"
+      }
+    ]
+  },
+  {
+    "rental_id": "R003",
+    "vehicle_plate": "DEF456",
+    "customer_id": "C003",
+    "start_date": "2026-10-17",
+    "end_date": "2026-10-22",
+    "returned_on": null,
+    "status": "active",
+    "payments": [
+      {
+        "payment_id": "P003",
+        "rental_id": "R003",
+        "amount": 500.0,
+        "payment_date": "2026-10-19",
+        "method": "cash"
+      }
+    ]
+  },
+  {
+    "rental_id": "R004",
+    "vehicle_plate": "LUX001",
+    "customer_id": "C001",
+    "start_date": "2026-10-11",
+    "end_date": "2026-10-15",
+    "returned_on": null,
+    "status": "active",
+    "payments": [
+      {
+        "payment_id": "P004",
+        "rental_id": "R004",
+        "amount": 3000.0,
+        "payment_date": "2026-10-19",
+        "method": "transfer"
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "type": "EconomyCar",
+    "plate": "ABC123",
+    "brand": "Toyota",
+    "model": "Yaris",
+    "base_rate": 400.0,
+    "branch_id": "B01",
+    "status": "available"
+  },
+  {
+    "type": "EconomyCar",
+    "plate": "DEF456",
+    "brand": "Hyundai",
+    "model": "Accent",
+    "base_rate": 350.0,
+    "branch_id": "B01",
+    "status": "rented"
+  },
+  {
+    "type": "SUV",
+    "plate": "XYZ789",
+    "brand": "Kia",
+    "model": "Sportage",
+    "base_rate": 500.0,
+    "branch_id": "B01",
+    "status": "available"
+  },
+  {
+    "type": "SUV",
+    "plate": "SUV222",
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "base_rate": 550.0,
+    "branch_id": "B02",
+    "status": "available"
+  },
+  {
+    "type": "LuxuryCar",
+    "plate": "LUX001",
+    "brand": "BMW",
+    "model": "520",
+    "base_rate": 900.0,
+    "branch_id": "B02",
+    "status": "rented"
+  },
+  {
+    "type": "LuxuryCar",
+    "plate": "LUX002",
+    "brand": "Mercedes",
+    "model": "C200",
+    "base_rate": 1000.0,
+    "branch_id": "B02",
+    "status": "maintenance"
+  }
+]
