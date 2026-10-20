@@ -223,7 +223,15 @@ class CarRental:
         self._changed()
 
     # 4) _____________________ التأجير والإرجاع والدفع (قلب الـ Business Logic) ___________________________
-   
+    def estimate_rental_cost(
+        self, plate: str, customer_id: str, start_date: date, end_date: date
+    ) -> float:
+        
+        vehicle = self.get_vehicle(plate)
+        customer = self.get_customer(customer_id)
+        preview = Rental("PREVIEW", vehicle, customer, start_date, end_date)
+        return preview.calculate_cost()
+
     def rent_car(
         self,
         plate: str,
